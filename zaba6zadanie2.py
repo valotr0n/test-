@@ -1,8 +1,10 @@
 text = "Нужно удалить    лишние пробелы  . ЗАчем? я сам не знаю."
-new_text = ""
-previous_char = ""
+newTxt = ''
+proshliyChar = ''
 for char in text:
-    if not (char == " " and previous_char == " "):
-        new_text += char
-    previous_char = char
-print("Текст без лишних пробелов:", new_text)
+    if not(char == ' ' and proshliyChar == ' '):
+        newTxt += char
+    proshliyChar = char
+print('Текст без лишних пробелов: ', newTxt)
+
+
