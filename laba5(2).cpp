@@ -16,3 +16,4 @@ int main() {
     cout << "sum = " << s << endl;
     return 0;
 }
+
